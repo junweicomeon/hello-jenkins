@@ -17,10 +17,7 @@ public class HelloWorldController {
     public String showMenu(){
         return "hello_world";
     }
-	@RequestMapping(value = "/sayHello2",method = RequestMethod.GET)
-    public String showMenu1(){
-        return "hello_world2";
-    }
+	
 
 
 }
